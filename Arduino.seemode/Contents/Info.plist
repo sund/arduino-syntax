@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -6,17 +6,12 @@
 	<string>SEEMode.Arduino</string>
 	<key>CFBundleName</key>
 	<string>Arduino</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>© 2015 sund.org
-	<string>Arduino</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
-	<key>CFBundleGetInfoString</key>
-	<string>1.0 code@sund.org 2015</string>
-	<key>CFBundlePackageType</key>
-	<string>BNDL</string>
+	<key>SEEMinimumEngineVersion</key>
+	<string>4.0</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 </dict>

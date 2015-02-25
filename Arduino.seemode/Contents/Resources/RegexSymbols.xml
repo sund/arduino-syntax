@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ??  code@sund.org -->
-<!-- project homepage: http://gitlab.sund.org/arduino/arduino-syntax  -->
 
 <symbols>
-	
+
     <blocks>
         <begin><regex>{</regex></begin>
         <end><regex>}</regex></end>
@@ -12,7 +10,7 @@
 	<symbol id="Include and Define" image="Symbol#" indentation="0" ignoreblocks="yes" font-weight="normal">
 		<regex>^#\w+\s+\w+.\w+</regex>
 	</symbol>
-		
+
     <symbol id="Program" image="SymbolP" indentation="0" ignoreblocks="yes" font-weight="bold">
         <regex>(((void)\s+)+(setup|loop)\s+?*\([^\)^;]*\))</regex>
     </symbol>
@@ -25,5 +23,5 @@
             <replace></replace>
         </postprocess>
     </symbol>
-    
+
 </symbols>

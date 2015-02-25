@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ??  code@sund.org -->
-<!-- project homepage: http://gitlab.sund.org/arduino/arduino-syntax  -->
+
 <syntax>
 
     <head>
@@ -162,7 +161,7 @@
 				<end><regex>[\n\r]</regex></end>
 				<import mode="Base" state="EmailAndURLContainerState" keywords-only="yes"/>
 			</state>
-            
+
         </default>
 
     </states>

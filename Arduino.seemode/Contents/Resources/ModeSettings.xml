@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ??  code@sund.org -->
-<!-- project homepage: http://gitlab.sund.org/arduino/arduino-syntax  -->
 
 <settings>
   <template>mytemplate.txt</template>   <!-- Provide a template for File->new -->
