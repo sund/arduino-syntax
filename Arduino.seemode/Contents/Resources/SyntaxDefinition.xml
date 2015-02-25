@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Rowan Simms  code@rowansimms.com -->
-<!-- project homepage: https://code.google.com/p/arduino-syntax-for-coda/  -->
+<!-- ??  code@sund.org -->
+<!-- project homepage: http://gitlab.sund.org/arduino/arduino-syntax  -->
 <syntax>
 
     <head>
         <name>Arduino</name>
         <autocompleteoptions use-spelling-dictionary="yes" />
-        <charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@]]></charsintokens> 
+        <charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@]]></charsintokens>
     </head>
 
     <states>
-        
+
         <default id="Base" color="#000" inverted-color="#fff">
 
             <keywords id="Arduino Functions" color="#FF8000" casesensitive="no" useforautocomplete="yes">
@@ -21,12 +21,12 @@
                 <string>analogWrite</string>
                 <string>analogReference</string>
                 <string>pinMode</string>
-                
+
                 <string>millis</string>
                 <string>micros</string>
                 <string>delay</string>
                 <string>delayMicroseconds</string>
-                
+
                 <string>min</string>
                 <string>max</string>
                 <string>abs</string>
@@ -34,11 +34,11 @@
                 <string>map</string>
                 <string>pow</string>
                 <string>sqrt</string>
-                
+
                 <string>sin</string>
                 <string>cos</string>
                 <string>tan</string>
-                        
+
                 <string>randomSeed</string>
                 <string>random</string>
 
@@ -69,7 +69,7 @@
                 <string>shiftOut</string>
                 <string>shiftIn</string>
                 <string>pulseIn</string>
-                
+
                 <string>begin</string>
                 <string>available</string>
                 <string>read</string>
@@ -83,7 +83,7 @@
                 <string>parseFloat</string>
                 <string>setTimeout</string>
                 <string>parseInt</string>
-                
+
                 <string>serialEvent</string>
                 <string>serialEvent1</string>
                 <string>serialEvent2</string>
@@ -106,7 +106,7 @@
               <string>loop</string>
               <string>setup</string>
             </keywords>
-            
+
             <keywords id="Language keywords" color="#8000FF" casesensitive="no" useforautocomplete="yes">
               <string>void</string>
               <string>boolean</string>
@@ -150,19 +150,21 @@
               <end><regex>[\s//]|[\n\r]</regex></end>
             </state>
 
-            <state id="Comment" color="#236E25" font-style="italic">
-                <begin><regex>/\*</regex></begin>
-                <end><regex>\*/</regex></end>
-            </state>
-            
-            <state id="SingleComment" color="#236E25" font-style="italic">
-                <begin><regex>//.*</regex></begin>
-                <end><regex>[\n\r]</regex></end> 
+            <state id="Comment" type="comment" scope="comment.block">
+				<begin><regex>/\*</regex><autoend>\*/</autoend></begin>
+				<end><regex>\*/</regex></end>
+				<import mode="Base" state="EmailAndURLContainerState" keywords-only="yes"/>
+				<state-link state="Comment" />
+			</state>
 
-            </state>
+			<state id="SingleComment" type="comment" scope="comment.line">
+				<begin><regex>//</regex></begin>
+				<end><regex>[\n\r]</regex></end>
+				<import mode="Base" state="EmailAndURLContainerState" keywords-only="yes"/>
+			</state>
             
         </default>
-        
+
     </states>
 
 </syntax>
