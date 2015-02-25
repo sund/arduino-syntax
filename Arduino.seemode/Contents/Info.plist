@@ -6,12 +6,15 @@
 	<string>SEEMode.Arduino</string>
 	<key>CFBundleName</key>
 	<string>Arduino</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2015 sund.org
+	<string>Arduino</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.1.1</string>
+	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>0.1.1</string>
+	<string>1.0</string>
 	<key>CFBundleGetInfoString</key>
-	<string>0.1.1 code@sund.org 2015</string>
+	<string>1.0 code@sund.org 2015</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleInfoDictionaryVersion</key>
