@@ -1,3 +1,9 @@
 Writing Modes:
 
 https://github.com/codingmonkeys/SubEthaEdit
+
+Regex help
+
+https://msdn.microsoft.com/en-us/library/az24scfc(v=vs.110).aspx
+
+http://www.rubular.com/r/D8xmoDbgq6
