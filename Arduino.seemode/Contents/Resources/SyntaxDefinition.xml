@@ -85,13 +85,12 @@
         <string>MSBFIRST</string>
       </keywords>
 
-      <keywords id="Arduino Sketch Structure" scope="keyword.control" casesensitive="no" useforautocomplete="yes" font-weight="bold" foldable="yes">
-        <string>loop</string>
-        <string>setup</string>
+      <keywords id="Arduino Sketch Structure" scope="keyword.subroutine" casesensitive="no" useforautocomplete="yes" font-weight="bold" foldable="yes">
+        <string>void loop()</string>
+        <string>void setup()</string>
       </keywords>
 
       <keywords id="Language keywords" scope="keyword.control" casesensitive="no" useforautocomplete="yes">
-        <string>void</string>
         <string>boolean</string>
         <string>char</string>
         <string>unsigned</string>
