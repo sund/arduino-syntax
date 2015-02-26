@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <settings>
-  <template>mytemplate.txt</template>   <!-- Provide a template for File->new -->
+  <template>mytemplate.txt</template>
   <recognition>
-    <extension>ino</extension>                   <!-- Add file extensions -->
-    <extension>pde</extension>                   <!-- Add file extensions -->
+    <extension>ino</extension>
+    <extension>pde</extension>
   </recognition>
 </settings>
