@@ -19,5 +19,5 @@ Quit the application, if it is running, and open it up again.
 
 CHANGELOG
 -------------------------
-=Version 2.0=
+=Version 1.0=
 Fork from 0.1.1
