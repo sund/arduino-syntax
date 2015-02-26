@@ -1,6 +1,7 @@
 Writing Modes:
 
 https://github.com/codingmonkeys/SubEthaEdit
+https://github.com/codingmonkeys/SubEthaEdit/tree/master/Documentation/ModeTutorial
 
 Regex help
 
